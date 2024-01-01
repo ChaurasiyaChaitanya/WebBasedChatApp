@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link href="./Account/style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-6 form-block px-4">
+				<div class="col-lg-8 col-md-6 col-sm-8 col-xs-12 form-box">
+					<div class="text-center mb-3 mt-5">
+						<h1>Welcome to CHATAPP</h1>
+					</div>
+					<h4 class="text-center mb-4" style="color: rgb(23, 11, 75)">
+						Sign into your account and start chatting with worldwide users.
+					</h4>
+					<h5 class="text-center mb-4">
+						Login into account with:
+					</h5>
+					<form>
+						<div class="sm mb-5 mt-1">
+							<div class="fb mb-4">
+							  <a href="#" class="btn btn-block btn-social btn-facebook" id="btn-fb" onclick="FacebookSignIn()" >
+								facebook
+							  </a>
+							</div>
+			  
+							<div class="gl mb-4">
+							  <a href="#" class="btn btn-block btn-social btn-google" id="btn-gl" onclick="GoogleSignIn()">
+								google
+							  </a>
+							</div>
+			  
+							<div class="tt-4">
+							  <a href="#" class="btn btn-block btn-social btn-twitter" id="btn-tw" onclick="TwitterSignIn()">
+								twitter
+							  </a>
+							</div>
+						</div>
+						<h6 class="mt-0">*If you don't have an account then sign up with any one of given above.</h6>
+							
+					</form>
+				</div>
+			</div>
+
+			<div class="col-lg-6 d-none d-lg-block image-container"></div>
+		</div>
+	</div>
+	    <!-- The core Firebase JS SDK is always required and must be listed first -->
+		<script src="https://www.gstatic.com/firebasejs/8.6.7/firebase.js"></script>
+		<script src="./Scripts/firebase.init.js"></script>
+		<script src="./Scripts/feature.js"></script>
+</body>
+</html>
