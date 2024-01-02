@@ -1,0 +1,315 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', Helvetica Nenu, Helvetica, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(90deg, rgb(150, 217, 248),  rgb(174, 119, 236));
+}
+#side-l {
+    background: rgb(7, 6, 37);
+    color: #fff;
+}
+
+.list-group-flush:last-child .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+.card-body {
+    background: linear-gradient(-45deg, rgb(238, 236, 171),  rgb(240, 185, 206));;
+}
+
+.mp {
+    margin: 10px 0 0 20px;
+}
+.un {
+    margin: 20px 0 0 0px;
+}
+.em {
+    margin: 10px 0 0 0px;
+}
+.ma {
+    margin: 15px 0 0 20px;
+}
+.m {
+    margin: 15px 0 0 20px;
+}
+.top {
+    height: 130px;
+    width: 100%;
+    background-color: linear-gradient(180deg, rgb(150, 217, 248),  rgb(174, 119, 236));;
+    position: fixed;
+    z-index: -1;
+}
+h2 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 3rem;
+    background: linear-gradient(45deg, #3c0de7, #ff3399);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  
+  }
+
+.chatbox {
+    height: calc(100% - 40px);
+    width: 95%;
+    margin-top: 20px;
+    padding: 0;
+}
+ .hname {
+     margin-bottom: 0rem;
+     padding-left: 95px;
+     font-size: 34.5px;
+
+}  .row {
+    margin: 0;
+}
+
+ .userp {
+     width: 330px;
+ }
+ .profilepic {
+     height: 100px;
+     width: 100px;
+     margin: 20px 0 0 125px;
+ }
+.profile-pic {
+    height: 40px;
+    width: 40px;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+}
+
+.friend-pic {
+    height: 50px;
+    width: 50px;
+    margin-left: -10px
+}
+
+.name {
+    font-weight: 400;
+    color: #000;
+}
+
+.under-name {
+    font-size: 14px;
+    line-height: 15px;
+    max-height: 15px;
+}
+.pname {
+    padding-left: 20px;
+}
+
+.p-under-name {
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 15px;
+    max-height: 15px;
+}
+.icon {
+    padding: 5px 0 0 50px;
+    font-size: 20px;
+    color: #3c74ec;
+    cursor: pointer;
+}
+#mi {
+    margin: 5px 0 0 105px;
+}
+
+.emoji {
+    padding: 4px 0 0 5px;
+}
+
+.searchbar {
+    width: 600px;
+    padding: 0px 10px 0 10px;
+}
+.microphone {
+    padding: 4px 0 0 5px;
+}
+
+.entersend {
+    padding: 4px 0 0 15px;
+    cursor: pointer;
+}
+
+.chat-pic {
+    height: 30px;
+    width: 30px;
+}
+
+.receive {
+    background-color: rgb(177, 223, 252);
+    border-radius: 1rem;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.sent {
+    background-color: rgb(167, 247, 76);
+    border-radius: 1rem;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+
+.time {
+    font-size: 10px;
+    color: #3f4547;
+    margin-top: 0;
+    margin-left: 1%;
+} 
+ .chat-head {
+     width: 500px;
+ }
+
+.card {
+    height: 95vh;
+}
+.rmsg {
+    margin-left: 10px; 
+}
+.smsg {
+    margin-right: 10px;
+}
+
+#messages {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/* 
+#lstChat {
+    overflow-y: scroll;
+    overflow-x: hidden;
+} */
+
+#smiley {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+}
+.dropdown-toggle::before {
+    display: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-menu{
+    padding : 0px;
+    margin-right: 50px;
+    min-width: 10rem;
+}
+#ac {
+    margin:450px 0 0 290px;
+    background: #1a2c8f;
+    color: #fff;
+}
+#ac h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+#pp {
+    margin:450px 0 0 290px;
+    background: #1a2c8f;
+    color: #fff;
+}
+#pp h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 5px;
+}
+#emoji {
+    position: absolute;
+    top: -30vh;
+    background-color: #ddd;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0,0,0,0.23) 0px 3px 6px;
+}
+
+    #emoji #myTabContent {
+        height: 20vh;
+    }
+
+#myTabContent a {
+    text-decoration: none;
+}
+
+
+#lnkNewChat {
+    width: 150px;
+    position:absolute;
+    margin: 50px 0 0 115px;
+}
+#lnk {
+    width: 180px;
+    position:absolute;
+    margin: 20px 0 0 105px;
+}
+
+#btn-noti {
+    width: 180px;
+    position:absolute;
+    margin: 90px 0 0 105px;
+}
+#about {
+    width: 180px;
+    position:absolute;
+    margin: 160px 0 0 105px;
+}
+#pap {
+    width: 180px;
+    position:absolute;
+    margin: 230px 0 0 105px;
+}
+.cv {
+    margin: 370px 0 0 140px;;
+}
+
+#btn-logout {
+    width: 180px;
+    position:absolute;
+    margin-left: 105px;
+    bottom: 60px;
+}
+#modalFriendList {
+    margin-top: -10px;
+    color: #000;
+}
+#modalUserList {
+    margin-top: -10px;
+    color: #000;
+}
+.card {
+    background: rgb(229, 234, 235);
+}
+
+#notification {
+    background-color:rgb(255, 0, 149);
+    border: 1px solid rgb(255, 0, 149);
+    border-radius: 50%;
+    position: absolute;
+    margin-top: 5%;
+    font-size: 3px;
+    width: 10%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-left: -12%;
+}
+
+#modalNotificationList {
+    margin-top: -10px;
+    color: #000;
+}
