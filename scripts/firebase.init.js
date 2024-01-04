@@ -1,4 +1,4 @@
-// <!-- The core Firebase JS SDK is always required and must be listed first -->
+﻿// <!-- The core Firebase JS SDK is always required and must be listed first -->
 
   // Your web app's Firebase configuration
   var firebaseConfig = {

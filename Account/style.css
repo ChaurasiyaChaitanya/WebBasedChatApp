@@ -1,0 +1,73 @@
+
+.image-container{
+    background: url('log.svg') center no-repeat;
+    background-size: 750px 1000px;
+    height: 100vh;
+}
+
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.form-box{
+    border: 2px solid #4095e5;
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-box h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 3rem;
+  background: linear-gradient(45deg, #3c0de7, #ff3399);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+}
+.form-box h4 {
+    font-weight: bold;
+}
+
+
+.form-box .btn-social{
+    color: white !important;
+    border: 0;
+    font-weight: bold;
+  }
+  .sm {
+      width: 150px;
+      margin-left:150px;
+  }
+  
+  .form-box .btn-facebook{
+    background: #4866a8;
+  }
+  
+  .form-box .btn-google{
+    background: #da3f34;
+  }
+  
+  .form-box .btn-twitter{
+    background: #33ccff;
+  }
+  
+  .form-box .btn-facebook:hover{
+    background: #3d578f;
+  }
+  
+  .form-box .btn-google:hover{
+    background: #bf3b31;
+  }
+  
+  .form-box .btn-twitter:hover{
+    background: #2eb7e5;
+  }
+  
